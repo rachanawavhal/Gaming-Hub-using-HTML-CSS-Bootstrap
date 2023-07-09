@@ -1,0 +1,177 @@
+.mlogo{
+    padding-top: 3px;
+    height: 100px;
+    /*margin-right:auto;*/
+}
+.box{
+    border:solid red;
+}
+
+*{
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.cname{
+    padding-top:12px;
+    font-size: 60px;
+    /*border: solid;*/
+    text-shadow: 5px 5px 2px rgb(136, 196, 222);
+    height: 100px;
+    font-weight: bold;
+    background-color: gold;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+    background-color: greenyellow;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-size:20px;
+    font-weight: bold;
+}
+/*any anchor tag in menu class */
+.menu a {
+    text-decoration:solid;
+    color: rgb(110, 123, 218);
+    display:block;
+}
+
+.section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: chartreuse;
+}
+
+.about{
+    text-align: justify;
+}
+
+.services{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0px 0px 8px 5px grey;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.services:hover{
+    transform: scale(1.2);
+}
+
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    height:5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:black;
+}
+
+
+.flipCard {
+    background-color: transparent;
+    width: 240px;
+    height: 150px;
+    perspective: 1000px;
+ }
+ .innerCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+ .flipCard:hover .innerCard {
+    transform: rotateY(180deg);
+ }
+ .frontCard, .cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  /*  -webkit-backface-visibility: hidden;*/
+    backface-visibility: hidden;
+ }
+ .frontCard {
+    background-color: rgb(124, 225, 243);
+    color: black;
+ }
+ .cardBack {
+    background-color: #d9d245;
+    color: white;
+    transform: rotateY(180deg);
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .menubar{
+    text-align: center;
+    background-color: rgb(255, 200, 47);
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-size:20px;
+    font-weight: bold;
+}
+/*any anchor tag in menu class */
+.menubar a {
+    text-decoration:solid;
+    color:rgb(100, 26, 168);
+    display:block;
+    
+}
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    color:rgb(100, 26, 168);
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+     color:rgb(100, 26, 168);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

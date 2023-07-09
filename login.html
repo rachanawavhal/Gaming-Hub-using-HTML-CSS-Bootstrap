@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Asset/CSS/login.css">
+    <title><u>Login Page</u></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(233, 206, 89);
+            font-family: 'Arial';
+        }
+    </style>
+    <script>
+        function abc() {
+            var x = document.getElementById("pd");
+            var y = document.getElementById("btn");
+            var z = x.getAttribute("type");
+            alert(z);
+
+            if (z == "password") {
+                x.setAttribute("type", "text");
+                y.innerHTML = "Hide";
+            }
+            else {
+                x.setAttribute("type", "password");
+                y.innerHTML = "Show";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<body>
+    <div class="back"><a href="index.html">Back</a></div>
+    <h2>Login Page</h2><br>
+    <div class="login">
+        <form id="login" method="get" action="login">
+            <label><b>User Name </b></label> <input type="text" name="Uname" id="Uname" required placeholder="joygilbert">
+            <br><br>
+            <label><b>Password</b></label> <br>
+
+            <b><input type="password" name="pd" id="pd" required placeholder="abc@123"></b>
+            <b> <button id="btn" type="submit" onclick="abc()">Show</button> </b>
+            <br><br>
+            
+
+
+         <a href="Services.html">   <b><input type="button" name="log" id="log"  value="Log in"></b></a>
+            
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            <a href="#">Forgot</a>
+        </form>
+    </div>
+</body>
+
+</html>

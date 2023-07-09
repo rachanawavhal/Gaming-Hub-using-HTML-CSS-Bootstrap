@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Asset/CSS/t960.css">
+    <link rel="stylesheet" href="Asset/CSS/mystyle.css">
+    <link rel="stylesheet" href="Asset/CSS/project.css">
+    <style>
+        .down{
+            position: fixed;
+            bottom: 10px;
+            right:20px;
+        }
+        .back {
+            margin-top: 50px;
+            float: left;
+            color: blue;
+        }
+
+        .turn {
+
+            color: rgb(229, 14, 161);
+            margin-top: 45px;
+            transition-property: font-size;
+            transition-duration: 10s;
+            transition-delay: 5s;
+        }
+
+        .turn:hover {
+            transform: rotate(335deg);
+            color: rgb(131, 23, 181);
+            
+
+        }
+
+        .search input[type=text] {
+            width: 200px;
+            height: 30px;
+            border-radius: 25px;
+            border: solid;
+            }
+            .suggest{
+                box-sizing: border-box;
+                border: solid;
+                width: 200px;
+                height: 70px;
+                color: gray;
+                float: right;
+        }
+        .ani{
+  
+  animation-name: slidein;
+  animation-duration: 10s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: slidein;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:infinite;
+
+    margin-bottom: 10px;
+      /*margin-top: 10px;
+    margin-right: 10px;
+    padding-top: 10px;*/
+    height: 30px;
+   /* text-align: center;*/
+    color: red;
+    font-size: 40px;
+  
+   /* background-color: rgb(157, 209, 223);*/
+}
+
+        
+        @keyframes slidein
+        {
+            from{
+                margin-left:0%;
+                /*width:50%*/
+
+            }
+            to{
+                margin-left:100%;
+                /*width:50%*/
+
+            }
+           
+        }
+    </style>
+</head>
+
+<body>
+ 
+    <div class="back"><a href="index.html">Back</a></div>
+    <div class="container_12">
+        <!--Wrapper class i.e main class-->
+        <div class="grid_12 ani">  
+         
+           <b>Welcome to Gaming Hub</b></div>
+       
+        <div class="grid_3 menubar"> <a href="topgames.html">Top Games</a></div>
+        <div class="grid_3 menubar"> <a href="favorite.html">Favorite Games</a></div>
+        <div class="grid_3 menubar"><div class="dropdown"> Dropdown
+      
+            <div class="dropdown-content">
+              <a href="#">Games Played</a>
+              <a href="#">Points Scored</a>
+              <a href="#">Liked</a>
+            </div>
+          </div>
+          
+          
+          </div>
+
+
+        <div class="grid_3 menubar">
+            <div class="search">
+                <input type="text" placeholder=" Search Games" name="search">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="grid_12 space"></div>
+        <div class="clear"></div>
+
+
+
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/angry.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://now.gg/play/rovio-entertainment/4902/angry-birds2" >ANGRY BIRD</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/ble.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://yaksgames.com/games/purble-place/G99CA84752">Purble Place</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/bubble.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.arkadium.com/games/bubble-shooter/">BUBBLE SHOOTER</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/car.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://yaksgames.com/games/cars-racing/G06CB8C930">CAR RACING</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/chess.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.chess.com/play">CHESS</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/differnce.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://yaksgames.com/games/disney-princess-find-the-differences/G068DE46DD">FIND DIFFERENCE</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/doll.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://yaksgames.com/games/barbie-doll-beach-house/G06FBEC294">DOLL HOUSE</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/fireboy.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/fireboy-and-watergirl-the-forest-temple">FIREBOY WATERGIRL</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/hotdog.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/hot-dog-bush"></a> HOT DOG BUSH</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/ludo.jpg"  width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/ludo-king">LUDO KING</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/mario.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/super-robo-adventure">MARIO</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/papa.png" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.ufreegames.com/play/papas-freezeria.html?ref=ref">PAPA PIZAARIA</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/pool.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/8-ball-pool">POOL</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/sara.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.girlsgogames.com/game/dark-chocolate-blackberry-cheesecake-saras-cooking-class">SARA COOKING</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/solataire.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/1-suit-solitaire">SOLATAIRE</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/suduko.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://sudoku.com/"> SUDUKO</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/word.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://thewordsearch.com/">WORD</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/MAHA.png" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/mahjong-classic">MAHJONG </a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/pubg.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">Pubg</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/candy.jpg" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/mlg-candy-kush">Candy Crush</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_4 services ">
+            <div class="flipCard">
+                <div class="innerCard">
+                    <div class="frontCard">
+                        <img src="Asset/Photos/Temple.png" width="240px" height="150px">
+                    </div>
+                    <div class="cardBack">
+                        <div class="turn">
+                            <h1 style="font-weight: 80px;"><a href="https://www.crazygames.com/game/princess-run-temple-and-ice">Temple Run</a> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="grid_12 section">Contact</div>
+        <div class="clear"></div>
+
+        <div class="grid_6 " style="border:solid;" width="460px" height="300">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.1731759357344!2d72.97204441394047!3d19.
+187637087023994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d834c00235%3A0x89ff617b4a6cbf6f!2sItvedan
+t%20Education%20Pvt.%20Ltd%20-%20Thane!5e0!3m2!1sen!2sin!4v1649083889531!5m2!1sen!2sin" width="450px" height="300"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="grid_6 " style="border:solid; height:320px">
+            <Form action="" method="get" align="center">
+
+
+
+
+                    <h1 align="center"><u>Details</u></h1>
+                    <table style="font-weight: 1000;">
+                        <tr>
+                            <td><label>Name of the Student:</label></td>
+                            <td><input type="text" id="name" name="id" maxlength="15" placeholder="Enter Your Name"></td>
+                        </tr>
+                        <tr align="left">
+                            <td><label>**Mobile No:</label></td>
+                            <td><input type="tel" id="mob" name="id" maxlength="10" placeholder="Enter Your Mobile number" Required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" ><label for="sub">Interested in :</label></td>
+                            <td align="left"><input type="checkbox" name="sub" value="Online Games">Online
+                                Games</input><br>
+                                <input type="checkbox" name="sub" value="Offline Games">Offline Games</input><br>
+                                <input type="checkbox" name="sub" value="Video Games">Video Games</input><br>
+                                <input type="checkbox" name="sub" value="Others">Others</input>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td><button type="Submit">Submit</button></td>
+
+                        </tr>
+
+                    </table>
+                    Suggestions:
+                    <br>
+                    <textarea rows="2" cols="50" name="description" placeholder="Any Suggestions"></textarea>
+                </fieldset>
+            </Form>
+        </div>
+
+    </div>
+    <div class="down"><a href="Services.html">top</a></div>
+    </div>
+    <!--end of main div-->
+
+</body>
+
+</html>
